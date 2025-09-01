@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# 📘 My Storybook Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A collection of reusable React components built with **Storybook**.  
+This project demonstrates UI development in isolation, documentation, and preview using Storybook.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Getting Started
 
-### `npm start`
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Angel-Mathew007/my-storybook-components.git
+cd my-storybook-components
+2️⃣ Install dependencies
+npm install
+3️⃣ Run Storybook locally
+npm run storybook
+Storybook will be available at:
+👉 http://localhost:6006
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+🌍 Live Preview
+Deployed with Chromatic (recommended) or Vercel.
+👉 Live Storybook Preview (Add link after deployment)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+📸 Screenshots
+<img width="951" height="869" alt="image" src="https://github.com/user-attachments/assets/f26b41da-ef33-4469-89a9-70829abc63e1" />
+<img width="952" height="877" alt="image" src="https://github.com/user-attachments/assets/07bd907f-6570-4326-a505-68e59d1a16aa" />
+<img width="949" height="812" alt="image" src="https://github.com/user-attachments/assets/07d430fe-1e5c-4497-b705-bac690bc3986" />
+<img width="950" height="838" alt="image" src="https://github.com/user-attachments/assets/d6564784-c868-42f2-92ba-709b27951a88" />
+<img width="956" height="755" alt="image" src="https://github.com/user-attachments/assets/583e6b71-d127-4d70-badd-3617be36e490" />
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+🛠️ Tech Stack
+React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Storybook (@storybook/react-webpack5)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Addons: Docs, Onboarding, CRA Preset
