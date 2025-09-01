@@ -35,9 +35,9 @@ Copy code
 npm run storybook
 Now open http://localhost:6006 🚀
 
-🌍 Live Preview
-Deployed Storybook: View on Chromatic
-(Replace with your actual link once deployed.)
+## 🚀 Live Storybook Preview
+👉 [View on Chromatic](https://68b5b639d671d223b16b93fe-iwpwbshetn.chromatic.com/)
+
 
 🛠️ Tech Stack
 React
