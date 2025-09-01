@@ -1,39 +1,50 @@
-# 📘 My Storybook Components
+# My Storybook Components
 
-A collection of reusable React components built with **Storybook**.  
-This project demonstrates UI development in isolation, documentation, and preview using Storybook.
+🚀 A collection of reusable React components documented with **Storybook**.
 
 ---
 
-## 🚀 Getting Started
+## 📂 Folder Structure
+my-storybook-components/
+│── .storybook/ # Storybook config
+│── src/ # React components + stories
+│── public/ # Static assets
+│── package.json # Dependencies
+│── README.md # Project documentation
 
-### 1️⃣ Clone the repository
+yaml
+Copy code
+
+---
+
+## ⚡ Getting Started
+
+### 1️⃣ Clone the repo
 ```bash
-git clone https://github.com/Angel-Mathew007/my-storybook-components.git
+git clone https://github.com/YOUR_USERNAME/my-storybook-components.git
 cd my-storybook-components
 2️⃣ Install dependencies
+bash
+Copy code
 npm install
+# or
+yarn install
 3️⃣ Run Storybook locally
+bash
+Copy code
 npm run storybook
-Storybook will be available at:
-👉 http://localhost:6006
+Now open http://localhost:6006 🚀
 
 🌍 Live Preview
-Deployed with Chromatic (recommended) or Vercel.
-👉 Live Storybook Preview (Add link after deployment)
-
-📸 Screenshots
-<img width="951" height="869" alt="image" src="https://github.com/user-attachments/assets/f26b41da-ef33-4469-89a9-70829abc63e1" />
-<img width="952" height="877" alt="image" src="https://github.com/user-attachments/assets/07bd907f-6570-4326-a505-68e59d1a16aa" />
-<img width="949" height="812" alt="image" src="https://github.com/user-attachments/assets/07d430fe-1e5c-4497-b705-bac690bc3986" />
-<img width="950" height="838" alt="image" src="https://github.com/user-attachments/assets/d6564784-c868-42f2-92ba-709b27951a88" />
-<img width="956" height="755" alt="image" src="https://github.com/user-attachments/assets/583e6b71-d127-4d70-badd-3617be36e490" />
-
-
+Deployed Storybook: View on Chromatic
+(Replace with your actual link once deployed.)
 
 🛠️ Tech Stack
 React
 
-Storybook (@storybook/react-webpack5)
+Storybook (React + Webpack5)
 
-Addons: Docs, Onboarding, CRA Preset
+TypeScript
+
+Chromatic (for deployment & visual testing)
+
